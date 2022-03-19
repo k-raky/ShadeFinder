@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Petit+Formal+Script&family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merienda&family=Petit+Formal+Script&family=Poiret+One&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div>Logo</div>
+      
+      <div class="userspace">
+     <i class="fas fa-user"></i>
+     <p>Raky</p>
+     <i class="fas fa-bars    "></i>
+      <i class="fas fa-power-off" (click)="auth.logout()"></i>
+    </div>
+
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <div class="text animate__animated animate__fadeInLeft animate_delay_4s">
+    <h1>FOUNDATION</h1>
+    <h1>FINDER</h1>
+    <h2>Le parfait fond de teint en quelques clicks</h2>
+    <button [routerLink]="[ './PictureTaker']">START</button>
+  </div>
+
+  <mat-toolbar>
+
+    <mat-toolbar-row class="bottom">
+
+      <div class="container-fluid" style="justify-content: space-between;">
+        <div style="display: flex;flex-direction: row; justify-content: space-evenly;width: 40%;">
+          <p>About Mark</p>
+          <p>Contact Us</p>
+          <p>FAQ</p>
+        </div>
+        <div style="display: flex;flex-direction: row; justify-content: space-evenly;width: 40%;">
+          <i class="fab fa-facebook   "></i>
+          <i class="fab fa-twitter    "></i>
+          <i class="fab fa-instagram    "></i>
+          <i class="fab fa-youtube    "></i>
+          <i class="fab fa-pinterest    "></i>
+        </div>
+      </div>
+
+      <div>
+        <p> 
+          <i class="fas fa-copyright    "></i>
+          2021 RK</p>
+      </div>
+    
+
+    </mat-toolbar-row>
+
+  </mat-toolbar>
+
+  
+
+</body>
+</html>

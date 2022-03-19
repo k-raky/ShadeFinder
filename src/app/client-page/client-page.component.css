@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    height:100%;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(51, 27, 17);
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.text{
+    background-image: url("../../assets/img/fond.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:overlay;
+    background-color :rgba(141, 93, 72, 0.644);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+    
+}
+
+mat-toolbar{
+    background-color: rgb(107, 55, 33); /*51, 27,17 ex color*/
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
+
+mat-toolbar-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.userspace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+button{
+    border: none;
+    width: 250px;
+    padding: 20px;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Merienda', cursive;
+
+}
+h2{
+    font-size: 30px;
+    font-family: "Merienda";
+    font-weight: lighter;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom{
+    display:flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
